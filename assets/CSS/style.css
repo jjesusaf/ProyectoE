@@ -130,7 +130,7 @@ li.indice-navbar{
     box-sizing: border-box;
     flex-flow: column;
     background-color: var(--color--1);
-    padding-bottom: 10rem;
+    
 
 }
 
@@ -176,6 +176,15 @@ li.indice-navbar{
     
 }
 
+.circuloypersona{
+    display: inline-block;
+    background-color: var(--color--1);
+    width: auto;
+    height: 331px;
+    margin: 0;
+    padding: 0;
+}
+
 .article1-circuloverde{
     box-sizing: border-box;
     width: 240px;
@@ -190,10 +199,11 @@ li.indice-navbar{
 }
 
 img.article1-persona{
-    position: absolute;
-    width: 60%;
-    bottom: 7.5rem;
-    left: 5.7rem;
+    position: relative;
+    width: 50%;
+    height: auto;
+    bottom: 12rem;
+    left: 6.5rem;
     background-color: transparent;
     z-index: 1;
 
