@@ -26,6 +26,10 @@ img{
     --font--: font-family: 'Open Sans', sans-serif;
 }
 
+
+/*BARRA DE NAVEGACION-------------------------------------*/
+
+
 header{
     display: inline-block;
     width: auto;
@@ -113,8 +117,59 @@ li.indice-navbar:hover{
     box-shadow: 5px 5px 20px rgb(235, 233, 233);
 }
 
+@media screen and ( min-width: 600px ){
+    ul.nav-bar{
+        display: flex;
+        height: auto;
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: var(--color--1);
+        align-content: end;
+        justify-content: end;
+        flex-flow: row;
+        min-height: auto;
+        position: initial;
+        top: 0;
+        gap: 2rem;
+        
+    }
 
-/*-------------------------------------------------------*/
+    img.btn-menu{
+        display: none;
+    }
+
+    nav.header-nav{
+        display: inline-block;
+        
+    }
+
+    li.indice-navbar{
+        font-size: 18px;
+        padding: .5rem;
+        margin: .5rem;
+    }
+
+    li.indice-navbar.end{
+        margin-right: 5rem;
+    }
+
+
+    nav.header-nav{
+        display: inline-block;
+        width: 100%;
+    }
+
+    li.indice-navbar{
+        width: auto;
+    }
+}
+
+
+/*PRIMER BLOQUE (SECCION 1)-------------------------------*/
+
 
 .header-section1{
     display: inline-block;
@@ -241,44 +296,6 @@ img.article1-persona{
         margin-left: 60Px;
         margin-bottom: 130px;
     }
-
-    ul.nav-bar{
-        display: flex;
-        height: auto;
-        list-style: none;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        text-align: center;
-        background-color: var(--color--1);
-        align-content: end;
-        justify-content: end;
-        flex-flow: row;
-        min-height: auto;
-        position: initial;
-        top: 0;
-        gap: 2rem;
-        
-    }
-
-    img.btn-menu{
-        display: none;
-    }
-
-    nav.header-nav{
-        display: inline-block;
-        
-    }
-
-    li.indice-navbar{
-        font-size: 18px;
-        padding: .5rem;
-        margin: .5rem;
-    }
-
-    li.indice-navbar.end{
-        margin-right: 5rem;
-    }
     
     .circuloypersona{
         height: auto;
@@ -286,11 +303,6 @@ img.article1-persona{
         position: relative;
         right: 2rem;
         
-    }
-    
-    nav.header-nav{
-        display: inline-block;
-        width: 100%;
     }
 
     .article1-p1{
@@ -328,16 +340,12 @@ img.article1-persona{
     
     }
 
-    li.indice-navbar{
-        width: auto;
-    }
-
     .article3-objeto3>p{
         background-color: transparent;
     }
 }
 
-/*--------------------------------------------------------*/
+/*SEGUNDO BLOQUE (MAIN SECCION 2)-------------------------*/
 
 main{
     width: auto;
@@ -415,8 +423,7 @@ main{
 }
 
 
-
-/*--------------------------------------------------------*/
+/*TERCER BLOQUE (MAIN SECCION 3)--------------------------*/
 
 
 .main-section3{
@@ -574,8 +581,8 @@ main{
 }
 
 
+/*CUARTO BLOQUE (MAIN SECCION 4)--------------------------*/
 
-/*-------------------------------------------------------*/
 
 .main-section4{
     width: auto;
@@ -690,7 +697,9 @@ img#amazon, #airbnb, #google{
     }
 }
 
-/*-------------------------------------------------------*/
+
+/* QUINTO BLOQUE (MAIN SECCION 5)-------------------------*/
+
 
     .main-section5{
         width: auto;
@@ -812,7 +821,7 @@ img#amazon, #airbnb, #google{
         }
     }
 
-/*--------------------------------------------------------*/
+/*SEXTO BLOQUE (FOOTER SECCION 6)-------------------------*/
 
 .footer{
     display: inline-block;
@@ -943,17 +952,17 @@ img#amazon, #airbnb, #google{
     }
 
     .circulogris {
-        width: 600px;
-        height: 600px;
-        right: 54rem;
+        width: 500px;
+        height: 500px;
+        right: 70rem;
       
     }
 
     .article1-objeto2foo {
         z-index: 2;
         background-color: transparent;
-        grid-column-start: 6;
-        grid-column-end: 7;
+        grid-column-start: 5;
+        grid-column-end: 6;
         height: 300px;
         grid-row-start: 2;
     }
@@ -962,8 +971,8 @@ img#amazon, #airbnb, #google{
         z-index: 2;
         background-color: transparent;
         height: 300px;
-        grid-column-start: 4;
-        grid-column-end: 5;
+        grid-column-start: 3;
+        grid-column-end: 4;
         grid-row-start: 2;
     }
     
@@ -979,5 +988,11 @@ img#amazon, #airbnb, #google{
         display: none;
     }
 
+    .footer-h1{
+        font-size: 40px;
+        margin-left: 12rem;
+    }
+
 
 }
+
