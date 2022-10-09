@@ -701,7 +701,7 @@ img#amazon, #airbnb, #google{
         position: relative;
         bottom: 4rem;
         border-radius: 1rem;
-        box-shadow: 2px 2px 2px 2px var(--color--4);
+        box-shadow: 2px 2px 2px 2px var(--color--6);
         margin: 0 0.5rem;
     }
 
@@ -718,9 +718,9 @@ img#amazon, #airbnb, #google{
         grid-column-end: 4;
         padding: 1rem;
         position: relative;
-        top: 2rem;
+        top: 0rem;
         border-radius: 1rem;
-        box-shadow: 2px 2px 2px 2px var(--color--4);
+        box-shadow: 2px 2px 2px 2px var(--color--6);
         margin: 0 0.5rem;
 
     }
