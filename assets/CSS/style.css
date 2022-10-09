@@ -96,7 +96,7 @@ li.indice-navbar{
     margin: 1.5rem;
     background-color: var(--color--1);
     font-family: 'Open Sans', sans-serif;
-    color: var(--color--3);
+    color: var(--color--4);
     font-size: 20px;
     z-index: 2;
 
@@ -105,6 +105,14 @@ li.indice-navbar{
 #menu-desplegable:checked ~ ul.nav-bar{
     display: flex;
 }
+
+li.indice-navbar:hover{
+    color: var(--color--3);
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 5px 5px 20px rgb(235, 233, 233);
+}
+
 
 /*-------------------------------------------------------*/
 
@@ -214,6 +222,10 @@ img.article1-persona{
 
 }
 
+.article3-objeto3>p{
+    background-color: transparent;
+}
+
 @media screen and ( min-width: 600px ){
 
     .section1-article1{
@@ -226,7 +238,7 @@ img.article1-persona{
         justify-content: center;
         gap: 1rem;
         width: 70%;
-        margin-left: 100Px;
+        margin-left: 60Px;
         margin-bottom: 130px;
     }
 
@@ -288,11 +300,11 @@ img.article1-persona{
     }
 
     .article1-logos {
-        justify-content: space-around;
+        justify-content: start;
+        gap: 6rem;
         margin-left: 0;
         margin-right: 0;
-        position: relative;
-        right: 2rem;
+       
     }
 
     .article1-circuloverde{
@@ -318,6 +330,10 @@ img.article1-persona{
 
     li.indice-navbar{
         width: auto;
+    }
+
+    .article3-objeto3>p{
+        background-color: transparent;
     }
 }
 
@@ -452,7 +468,7 @@ main{
     background-color: transparent;
     height:fit-content;
     overflow: scroll;
-    width: 340px;
+    width: 300px;
 
 }
 
