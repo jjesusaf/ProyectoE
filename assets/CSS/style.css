@@ -760,7 +760,41 @@ img#amazon, #airbnb, #google{
         font-weight: 600;
     }
 
+    @media screen and ( min-width: 600px ){
+        .section5-article5{
+            grid-template-columns: 2fr 1fr 2fr;
+        }
 
+        .article5-imagen1{
+            grid-column-start: 1;
+            grid-column-end: 2;
+            margin: 0 1rem;
+            
+        }
+
+        .article5-texto1y2 {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            bottom: 0;
+            margin: 4rem 4rem;
+        }
+        
+        .article5-imagen2 {
+            grid-column-start: 3;
+            grid-column-end: 4;
+            top: -1rem;
+            margin: 0 1rem;
+            
+        }
+
+        .article5-texto1y2>h1{
+            font-size: 40px;
+        }
+
+        .article5-texto1y2>p{
+            font-size: 20px;
+        }
+    }
 
 
 
