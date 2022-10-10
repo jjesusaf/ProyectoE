@@ -321,8 +321,8 @@ img.article1-persona{
 
     .article1-circuloverde{
         display: inline-block;
-        width: 600px;
-        height: 600px;
+        width: 500px;
+        height: 500px;
         right: 13rem;
         top: 1rem;
        
@@ -331,10 +331,9 @@ img.article1-persona{
     
     img.article1-persona{
         display: inline-block;
-        width: 60%;
-        bottom: 38rem;
-        left: 5rem;
-        margin: 100px;
+        width: 70%;
+        bottom: 24.5rem;
+        left: 7.5rem;
 
 
     
